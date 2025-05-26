@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiões Brasil</title>
+    <style>
+        * {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    nav {
+
+    background-color: red;
+    color: white;
+    width: 100%; /*Largura total do menu*/
+    height: 70px; /*Altura do menu*/
+    position: fixed; /*O elemento ficará fixo na tela - no topo da página*/
+    top: 15px; /*Garante que o <nav> fique sempre alinhado ao topo*/
+    left: 0; /*Garante que o nav fique sempre alinhado à esquerda*/
+
+    display: flex; /*Organizar os itens ao centro da página*/
+    justify-content: space-around; /*Espaço igual entre os itens*/
+    align-items: center;
+    }
+
+    nav ul {
+    list-style: none; /*Retira o ícone de item da lista*/
+    display: flex; /*Transformar a lista vertical em horizontal*/
+    }
+
+    nav li {
+    padding: 15px; /*Espaçamento interno ao redor do texto*/
+    text-align: center; /* Centraliza o texto dentro da <li> */
+    }
+
+    nav li:hover {
+    background-color: rgb(186, 37, 37);
+    }
+
+    nav a {
+    color: white;
+    text-decoration: none; /*Retira o sublinhado de link*/
+    }
+
+    nav img {
+    width: 30px;
+    height: 30px;
+    }
+
+    nav img:hover {
+    background-color: rgb(186, 37, 37);
+    }
+
+    main {
+    padding: 20px; /*Espaçamento interno garantindo que o conteúdo não fique colado nas bordas*/
+    margin-top: 75px; /*Distância evitando que o conteúdo fique atrás do menu*/
+    white-space-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+    <!--Menu superior horizontal-->
+    <nav>
+        <h1>GeoBrasil</h1>
+        <ul>
+            <li><a href="">Norte</a></li>
+            <li><a href="">Nordeste</a></li>
+            <li><a href="">Centro-Oeste</a></li>
+            <li><a href="">Sudeste</a></li>
+            <li><a href="">Sul</a></li>
+        </ul>
+    </nav>
+    <!--Conteúdo-->
+    <main>
+        <h1>Regiões do Brasil!</h1>
+        <br>
+        <p>Quando falamos em regiões do Brasil, fazemos referência ao agrupamento de unidades federativas com características semelhantes. O Brasil é dividido em cinco regiões atualmente:
+        </p>
+        <br>
+        <ul>
+            <li>Norte</li>
+            <li>Nordeste</li>
+            <li>Centro-Oeste</li>
+            <li>Sudeste</li>
+            <li>Sul
+            </li>
+        </ul>
+
+
+    </main>
+</body>
+</html>
